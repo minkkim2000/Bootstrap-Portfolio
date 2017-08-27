@@ -1,0 +1,195 @@
+/* ======GENERAL FONT STUFF FOR ALL HTML======= */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background-color: #f6f1ed;
+    min-width:400px;
+}
+
+h1, h2, footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+p{
+    font-family: 'Faustina', serif;
+    font-size: 18px;
+}
+
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ======TOP HEADER FOR ALL HTML======= */
+
+#home{
+    font-size: 36px;
+}
+
+.nav-item{
+
+}
+
+
+#topheader{
+    top: 0;
+    background-color: yellow;
+    border-bottom: 5px #75794c solid;
+    letter-spacing: 2px;
+}
+
+#navnav{
+    display:hidden;
+}
+
+
+/* ======BODY - CONTENTS FOR ALL HTML======= */
+
+
+
+#article{
+    padding: 30px;
+    padding-top: 0;
+    box-shadow: 0 0 10px #000;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+#sidebarr{
+    width: 270px;
+    box-shadow: 0 0 10px #000;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+#profilepic1{
+    width: 300px;
+    height: auto;
+    float:left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+img#github{
+    max-width:70px;
+    height: auto;
+    float: left;
+    margin-right:13px;
+}
+img#linkedin{
+    max-width:70px;
+    height: auto;
+    float: left;
+    margin-right:13px;
+}
+
+img#instagram{
+    max-width:70px;
+    height: auto;
+    float: left;
+}
+
+
+
+
+
+/* ======CONTACT PAGE======= */
+
+label{
+    font-weight: bold;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Faustina', serif;
+}
+
+input[type=submit] {
+    background-color: #fc452b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Faustina', serif;
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+    font-family: 'Faustina', serif;
+}
+
+
+
+
+/* ======PORTFOLIO PAGE======= */
+#adobe-ps{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#adobe-ai{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#drawing{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#painting{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* ======FOOTER FOR ALL HTML======= */
+footer{
+    width: 100%;
+    bottom: 0;
+    margin-top: 50px;
+    background-color: #22264b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+
+}
